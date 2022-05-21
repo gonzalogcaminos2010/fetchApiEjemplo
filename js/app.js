@@ -18,8 +18,8 @@ fetch('https://dog.ceo/api/breeds/list/all')
 function generarImagen(data){
     const html = `
     <img src='${data}' alt>
-        <p>Click para ver imagenes de ${select.value}</p>
-        ;
+        <p>Click para ver imagenes de ${select.value}s</p>
+        `;	
 }
 
 
