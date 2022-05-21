@@ -15,7 +15,12 @@ fetch('https://dog.ceo/api/breeds/list/all')
 // ------------------------------------------
 //  HELPER FUNCTIONS
 // ------------------------------------------
-
+function generarImagen(data){
+    const html = `
+    <img src='${data}' alt>
+        <p>Click para ver imagenes de ${select.value}</p>
+        ;
+}
 
 
 // ------------------------------------------
